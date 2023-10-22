@@ -1,0 +1,7 @@
+1. Problem: "Start windows trhought grub command line after delete ubuntu partition"
+
+      enter: 
+      
+      ls (hd0,gpt1)/
+      chainloader (hd0,gpt1)/EFI/Microsoft/Boot/bootmgfw.efi
+      boot
